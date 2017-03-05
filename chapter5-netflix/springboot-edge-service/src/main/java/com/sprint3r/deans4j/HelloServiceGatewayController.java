@@ -20,8 +20,7 @@ public class HelloServiceGatewayController {
 
     @GetMapping(value = "/json-rest-template/{name}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public Hello hello(@PathVariable("name") String name) {
-        String value = restTemplate
-                .getForObject("http://hello-world-service/{name}", String.class, name);
+        String value = restTemplate.getForObject("http://hello-world-service/{name}", String.class, name);
         return new Hello(value + " from restTemplate");
     }
 
@@ -39,7 +38,7 @@ public class HelloServiceGatewayController {
     }
 
     private Hello myDefaultAnswer(String name) {
-        return new Hello("สวัสดีครับ " + name);
+        return new Hello("สวัสดีครับ ผมตายแล้ว : " + name);
     }
 
     @Data

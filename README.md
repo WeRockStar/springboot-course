@@ -9,7 +9,10 @@
 - Proxy filter
 - Post filter
 - Monitoring
-- Security
+- Spring Security
 - Eureka server
 - Load balancer
 - CircuitBreaker (Hystrix)
+- Turbine
+- Spring Cloud
+- Kafka
