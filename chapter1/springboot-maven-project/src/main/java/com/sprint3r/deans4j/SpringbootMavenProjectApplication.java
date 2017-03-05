@@ -11,7 +11,11 @@ public class SpringbootMavenProjectApplication {
 
 	@GetMapping("/")
 	public String hello() {
+<<<<<<< HEAD
 		return "Hello Spring boot by P'Dean";
+=======
+		return "Hello";
+>>>>>>> Update README.md
 	}
 
 	public static void main(String[] args) {
