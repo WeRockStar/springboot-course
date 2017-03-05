@@ -12,3 +12,4 @@
 - Security
 - Eureka server
 - Load balancer
+- CircuitBreaker (Hystrix)
