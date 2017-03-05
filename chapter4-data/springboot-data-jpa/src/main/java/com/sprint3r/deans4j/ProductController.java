@@ -16,7 +16,6 @@ public class ProductController {
 
     @GetMapping("/")
     Iterable<Product> productList() {
-        System.out.println("hello");
         return repository.findAll();
     }
 

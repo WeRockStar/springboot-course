@@ -11,7 +11,7 @@ public class SpringbootMavenProjectApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "Hello";
+		return "Hello Spring boot by P'Dean";
 	}
 
 	public static void main(String[] args) {
