@@ -11,3 +11,4 @@
 - Monitoring
 - Security
 - Eureka server
+- Load balancer
